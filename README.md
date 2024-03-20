@@ -28,6 +28,9 @@ body
 - search
 - RestaurantContainer
 - RestaurantCard
+
+  - Img
+  - name of res, star rating, cuisines, delivery time
 footer
 - copyright
 - links
