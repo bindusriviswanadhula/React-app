@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "build parcel index.html",
+    "build": "build parcel ./src/App.js",
     "watch-test": "jest --watch"
   },
   "repository": {
