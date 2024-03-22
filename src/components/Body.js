@@ -82,7 +82,7 @@ const Body =() => {
                  onClick = {() => {
                 //filter logic
                 const filteredList = listOfRestaurants.filter(
-                    (res) => res.info.avgRating > 4.5
+                    (res) => res.info.avgRating > 4.2
                     );
                     setFilteredRestaurant(filteredList);
                     
