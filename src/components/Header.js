@@ -22,7 +22,7 @@ const Header = () => {
                 src={LOGO_URL} />
             </div>
             <div className="nav-items flex items-center">
-                <ul className="flex items-center justify-around font-bold text-[11px]">
+                <ul className="flex items-center justify-around font-bold text-[10px]">
                 
                     <li className="px-2 "><Link to ="/">Home</Link></li>
                     <li className="px-2 "><Link to = "/about">About Us</Link></li>
