@@ -46,13 +46,13 @@ const Body =() => {
     return listOfRestaurants.length === 0 ? (<Shimmer/>
      ) : (
         <div className="body">
-            <div className="filter flex flex-wrap items-center justify-center">
-              <div className="search m-4 py-4 flex items-center">
+            <div className="filter flex flex-wrap items-center justify-center 2xl:m-4 2xl:p-4 2xl:text-xl">
+              <div className="search m-4 py-4 flex items-center 2xl:w-6/12">
                 <input 
                 placeholder="search your favourite's "
                 type="text"
                 data-testid="searchInput"
-                className="search-box border border-solid border-black rounded-md"
+                className="search-box border border-solid border-black rounded-md "
                 value = {searchText}
                 onChange={(e)=> {
                   setSearchText(e.target.value);
@@ -60,7 +60,7 @@ const Body =() => {
                 }}
                 ></input>
                 <button
-                className="filter-btn px-2 py-1 bg bg-orange-300 rounded-lg  mx-2 font-medium"
+                className="filter-btn px-2 py-1 bg bg-orange-300 rounded-lg  mx-2 font-medium "
                 onClick={() => {
 
                   const filteredRestaurant = listOfRestaurants.filter((res) => 
@@ -76,9 +76,9 @@ const Body =() => {
                   search
                 </button>
               </div>
-              <div className="search p-4 ">
+              <div className="search p-4 2xl:w-5/12">
                 <button
-                 className="filter-btn px-4 py-2 bg-gray-200 rounded-lg font-medium"
+                 className="filter-btn px-4 py-2 bg-gray-200 rounded-lg font-medium "
                  onClick = {() => {
                 //filter logic
                 const filteredList = listOfRestaurants.filter(
